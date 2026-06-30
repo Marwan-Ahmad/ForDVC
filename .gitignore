@@ -1,0 +1,19 @@
+# Raw data tracked by DVC
+/data/*.csv
+
+# MLflow local files
+/mlruns/
+/mlartifacts/
+/mlartifacts_v2/
+/mlflow_artifacts/
+/mlflow_export/
+/mlflow_export.zip
+/mlflow.db
+/mlflow_v2.db
+
+# CatBoost logs
+/catboost_info/
+
+# Python cache
+__pycache__/
+*.pyc
